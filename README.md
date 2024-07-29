@@ -2,8 +2,7 @@
 
 ## 1.1 Origin
 Diabetes is an issue affecting a person’s blood sugar levels, due to the body
-not producing enough insulin or cannot process insulin that the body pro-
-duces. The data were collected by the USA’s National Institute of Diabetes
+not producing enough insulin or cannot process insulin that the body produces. The data were collected by the USA’s National Institute of Diabetes
 and Digestive and Kidney Diseases, and it consists of 768 women from the
 Pima Indian population from Phoenix, Arizona [1]. This population was
 investigated due to their heightened prevalence of diabetes, thus eight high
@@ -43,8 +42,7 @@ BMI range is between 14.1-52.3 units [5], and glucose level under 70 units
 can be fatal [6]. In addition to these predictors, there are 109 observations
 with no pregnancies. One can determine that, especially for skin thickness
 and insulin, that there are missing data, which can affect the accuracy of the
-model chosen. Sorting the data by serum insulin shows that all zero observa-
-tions of skin thickness also have a insulin value of 0 so the data is not Missing
+model chosen. Sorting the data by serum insulin shows that all zero observations of skin thickness also have a insulin value of 0 so the data is not Missing
 Completely at Random (MCAR). Moreover, there are 490 negative diabetes
 results, accounting for 65.3% of the whole data. This class imbalance could
 have negative implications on the predictive model. No duplication of rows
